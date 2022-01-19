@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: "Nunito SemiBold";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root{
+  width: 100%;
+  height: 100%;
+}
+
+.main{
+  width: 100%;
+  height: 100%;
+}
+
+.main h1{
+  text-align: center;
+}
+
+.booklist{
+  display: flex;
+  flex-direction: inherit;
+  height: 70%;
+  width: 100%;
+}
+.booklist ul{
+  width: 60%;
+}
+.booklist li{
+  display: inline-block;
+  margin: 5px;
+  border-radius: 10px;
+  border:1px solid lightskyblue;
+  padding: 5px;
+  color: #f3f3f3;;
+  background-color: #932432;
+}
+
+
+.main .book-details{
+  width: 35%;
+  height: 84%;
+  background-color: #DCE1E3;
+  right: 0px;
+  position: absolute;
+  padding: 15px;
+  box-shadow: 1px 2px 3px rgb(0,0,0,0.3);
+}
+
+form{
+  width: 500px;
+  background-color: #fff;
+  padding: 40px;
+  left: 0;
+}
+
+form .field{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+
+}
+
+form label{
+  text-align: right;
+}
+
+form input, form select{
+  margin: 5px;
+  padding: 5px;
+}
+
+form .button-container{
+  width: 100%;
+}
+
+form button{
+  left: 50% !important;
+  color: #fff;
+  background-color: purple;
+  padding: 10px;
+}
